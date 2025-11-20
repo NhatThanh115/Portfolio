@@ -6,4 +6,4 @@
 
 ## Website
 
-domain `maitrthanhnhat.netlify.app`
+  Access domain [click here](maitrthanhnhat.netlify.app)
