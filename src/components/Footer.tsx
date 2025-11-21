@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
@@ -17,7 +18,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Tra Vinh, Vietnam",
+    value: "Khom 4, Phuong Duyen Hai, Vinh Long, Vietnam",
     href: null,
   },
   {

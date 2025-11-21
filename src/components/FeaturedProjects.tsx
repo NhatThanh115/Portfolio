@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "motion/react";
 import { Badge } from "./ui/badge";
 import { ExternalLink, ArrowUpRight } from "lucide-react";
