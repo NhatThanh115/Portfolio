@@ -143,7 +143,7 @@ export function Hero() {
             <div className="relative z-10">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-teal-400/20 to-cyan-400/20 p-6 flex items-center justify-center overflow-hidden">
                 <img
-                  src="../public/received_545438114343019.jpg"
+                  src="/019.jpg"
                   alt="Student coding illustration"
                   className="w-full h-full object-cover rounded-xl"
                 />
