@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
@@ -6,6 +7,15 @@ export function Hero() {
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
     projectsSection?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/Mai-Tran-Thanh-Nhat-CV.pdf';
+    link.download = 'Mai-Tran-Thanh-Nhat-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -90,6 +100,7 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="bg-white/5 border-white/20 text-white hover:bg-white/10 backdrop-blur-sm w-full sm:w-auto"
+              onClick={downloadCV}
             >
               <Download className="mr-2 h-5 w-5" />
               Download CV
