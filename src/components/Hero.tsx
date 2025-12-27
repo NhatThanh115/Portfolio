@@ -143,7 +143,7 @@ export function Hero() {
             <div className="relative z-10">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-teal-400/20 to-cyan-400/20 p-6 flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1727522974735-44251dfe61b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpc29tZXRyaWMlMjBjb2RpbmclMjBpbGx1c3RyYXRpb258ZW58MXx8fHwxNzYzNjMwNjA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="thesis/received_545438114343019.jpeg"
                   alt="Student coding illustration"
                   className="w-full h-full object-cover rounded-xl"
                 />
