@@ -63,13 +63,13 @@ export function FeaturedProjects() {
                 </motion.div>
 
                 {/* Info card */}
-                <div className="order-1 lg:order-2">
+                <a href="https://github.com/NhatThanh115/CN-DA22TTA-MaiTranThanhNhat.git" target="_blank" rel="noopener noreferrer" className="order-1 lg:order-2 block hover:opacity-80 transition-opacity">
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="text-[#0a0f2c] text-xl sm:text-2xl">English Learning Platform</h3>
                     <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6 text-teal-500 flex-shrink-0 ml-2" />
                   </div>
                   <p className="text-sm sm:text-base text-gray-600 mb-6 leading-relaxed">
-                    Web application designed for Khmer learners featuring multilingual support, 
+                    Web application designed for Khmer learners featuring multilingual support,
                     offline capabilities, and an intuitive interface to make English learning accessible.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -78,7 +78,7 @@ export function FeaturedProjects() {
                     <Badge className="bg-purple-100 text-purple-700 border-0">Deno</Badge>
                     <Badge className="bg-green-100 text-green-700 border-0">SQL</Badge>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </motion.div>
@@ -94,13 +94,13 @@ export function FeaturedProjects() {
             <div className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12">
               <div className="grid lg:grid-cols-2 gap-6 lg:gap-8 items-center">
                 {/* Info card */}
-                <div className="order-1">
+                <a href="https://github.com/NhatThanh115/csn-da22tta-maitranthanhnhat-diemdanh-qrcode.git" target="_blank" rel="noopener noreferrer" className="order-1 block hover:opacity-80 transition-opacity">
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="text-[#0a0f2c] text-xl sm:text-2xl">Attendance Application</h3>
                     <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6 text-teal-500 flex-shrink-0 ml-2" />
                   </div>
                   <p className="text-sm sm:text-base text-gray-600 mb-6 leading-relaxed">
-                    Offline-first mobile solution for classroom management, enabling teachers to track 
+                    Offline-first mobile solution for classroom management, enabling teachers to track
                     student attendance efficiently even without internet connectivity.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -108,7 +108,7 @@ export function FeaturedProjects() {
                     <Badge className="bg-orange-100 text-orange-700 border-0">SQLite</Badge>
                     <Badge className="bg-green-100 text-green-700 border-0">Android Studio</Badge>
                   </div>
-                </div>
+                </a>
 
                 {/* Mobile mockup */}
                 <motion.div
